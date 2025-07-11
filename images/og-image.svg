@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0d1117"/>
+  
+  <!-- Matrix digital rain background pattern -->
+  <defs>
+    <pattern id="matrixRain" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <rect width="40" height="40" fill="transparent"/>
+      <text x="20" y="15" font-family="monospace" font-size="8" fill="#00ff41" opacity="0.3" text-anchor="middle">1</text>
+      <text x="20" y="30" font-family="monospace" font-size="8" fill="#00ff41" opacity="0.2" text-anchor="middle">0</text>
+    </pattern>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Matrix rain background -->
+  <rect width="1200" height="630" fill="url(#matrixRain)"/>
+  
+  <!-- Left side - Large QR code representation -->
+  <g transform="translate(100, 100)">
+    <!-- QR Code Corner Markers -->
+    <rect x="0" y="0" width="80" height="80" fill="none" stroke="#00ff41" stroke-width="4"/>
+    <rect x="320" y="0" width="80" height="80" fill="none" stroke="#00ff41" stroke-width="4"/>
+    <rect x="0" y="320" width="80" height="80" fill="none" stroke="#00ff41" stroke-width="4"/>
+    
+    <!-- Inner corner squares -->
+    <rect x="20" y="20" width="40" height="40" fill="#00ff41"/>
+    <rect x="340" y="20" width="40" height="40" fill="#00ff41"/>
+    <rect x="20" y="340" width="40" height="40" fill="#00ff41"/>
+    
+    <!-- QR data pattern simulation -->
+    <g fill="#00ff41" opacity="0.8">
+      <rect x="120" y="20" width="20" height="20"/>
+      <rect x="160" y="20" width="20" height="20"/>
+      <rect x="200" y="20" width="20" height="20"/>
+      <rect x="120" y="60" width="20" height="20"/>
+      <rect x="200" y="60" width="20" height="20"/>
+      <rect x="240" y="60" width="20" height="20"/>
+      
+      <rect x="20" y="120" width="20" height="20"/>
+      <rect x="60" y="120" width="20" height="20"/>
+      <rect x="120" y="120" width="20" height="20"/>
+      <rect x="200" y="120" width="20" height="20"/>
+      <rect x="280" y="120" width="20" height="20"/>
+      <rect x="320" y="120" width="20" height="20"/>
+      <rect x="360" y="120" width="20" height="20"/>
+      
+      <rect x="60" y="160" width="20" height="20"/>
+      <rect x="120" y="160" width="20" height="20"/>
+      <rect x="240" y="160" width="20" height="20"/>
+      <rect x="320" y="160" width="20" height="20"/>
+      
+      <rect x="20" y="200" width="20" height="20"/>
+      <rect x="80" y="200" width="20" height="20"/>
+      <rect x="160" y="200" width="20" height="20"/>
+      <rect x="240" y="200" width="20" height="20"/>
+      <rect x="320" y="200" width="20" height="20"/>
+      <rect x="380" y="200" width="20" height="20"/>
+      
+      <rect x="120" y="240" width="20" height="20"/>
+      <rect x="200" y="240" width="20" height="20"/>
+      <rect x="280" y="240" width="20" height="20"/>
+      <rect x="360" y="240" width="20" height="20"/>
+      
+      <rect x="60" y="280" width="20" height="20"/>
+      <rect x="160" y="280" width="20" height="20"/>
+      <rect x="240" y="280" width="20" height="20"/>
+      <rect x="320" y="280" width="20" height="20"/>
+      <rect x="380" y="280" width="20" height="20"/>
+      
+      <rect x="120" y="360" width="20" height="20"/>
+      <rect x="160" y="360" width="20" height="20"/>
+      <rect x="240" y="360" width="20" height="20"/>
+      <rect x="280" y="360" width="20" height="20"/>
+      <rect x="320" y="360" width="20" height="20"/>
+      <rect x="380" y="360" width="20" height="20"/>
+    </g>
+  </g>
+  
+
+  <!-- Right side text content -->
+  <g transform="translate(650, 200)">
+    <!-- Main title -->
+    <text x="0" y="0" font-family="monospace" font-size="64" fill="#00ff41" font-weight="bold" filter="url(#glow)">
+      QR
+    </text>
+    
+    <!-- Domain -->
+    <text x="0" y="60" font-family="monospace" font-size="24" fill="#00ff41" opacity="0.9">
+      qr.dumbprojects.com
+    </text>
+    
+    <!-- Subtitle -->
+    <text x="0" y="100" font-family="monospace" font-size="28" fill="#00ff41" opacity="0.8">
+      Scanner &amp; Generator
+    </text>
+    
+    <!-- Description -->
+    <text x="0" y="140" font-family="monospace" font-size="18" fill="#00ff41" opacity="0.7">
+      Enter the Matrix of QR Codes
+    </text>
+    
+    <!-- Feature bullets -->
+    <g font-family="monospace" font-size="16" fill="#00ff41" opacity="0.6">
+      <text x="0" y="180">&gt; Scan QR codes instantly</text>
+      <text x="0" y="210">&gt; Generate custom QR codes</text>
+      <text x="0" y="240">&gt; Matrix-themed interface</text>
+    </g>
+  </g>
+  
+  <!-- Bottom scanning line animation effect -->
+  <g opacity="0.4">
+    <line x1="100" y1="500" x2="500" y2="500" stroke="#00ff41" stroke-width="2">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Binary code decoration -->
+  <g font-family="monospace" font-size="12" fill="#00ff41" opacity="0.2">
+    <text x="50" y="50">01001101 01000001 01010100 01010010 01001001 01011000</text>
+    <text x="50" y="580">01010001 01010010 00100000 01000011 01001111 01000100 01000101</text>
+  </g>
+</svg>
