@@ -4,7 +4,6 @@
   "description": "Generate QR codes from text/URLs and scan QR codes with your camera",
   "start_url": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui", "browser"],
   "background_color": "#0d1117",
   "theme_color": "#39ff7e",
   "orientation": "portrait-primary",
