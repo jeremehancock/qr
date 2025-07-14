@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QR</title>
-    
-	<link rel="manifest" href="manifest.json">
-	<meta name="theme-color" content="#39ff7e">
-	<meta name="background-color" content="#0d1117">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-	<meta name="apple-mobile-web-app-title" content="QR">
-	<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230d1117'/%3E%3Cg fill='%2300ff41'%3E%3Crect x='10' y='10' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='65' y='10' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='10' y='65' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='25' y='15' width='5' height='5'/%3E%3Crect x='15' y='25' width='5' height='5'/%3E%3Crect x='70' y='15' width='5' height='5'/%3E%3Crect x='80' y='15' width='5' height='5'/%3E%3Crect x='70' y='25' width='5' height='5'/%3E%3Crect x='15' y='70' width='5' height='5'/%3E%3Crect x='25' y='70' width='5' height='5'/%3E%3Crect x='15' y='80' width='5' height='5'/%3E%3Ccircle cx='50' cy='50' r='8' fill='none' stroke='%2300ff41' stroke-width='2'/%3E%3Cline x1='42' y1='50' x2='58' y2='50' stroke='%2300ff41' stroke-width='1'/%3E%3Cline x1='50' y1='42' x2='50' y2='58' stroke='%2300ff41' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E">
 
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://qr.dumbprojects.com/">
-	<meta property="og:title" content="QR Code Generator & Scanner">
-	<meta property="og:description"
-		content="Generate and scan QR codes instantly. Create high-quality QR codes from any text or URL, and scan codes with your mobile camera.">
-	<meta property="og:image" content="https://qr.dumbprojects.com/images/og-image.svg">
-	<meta property="og:site_name" content="QR Code Generator & Scanner">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#39ff7e">
+    <meta name="background-color" content="#0d1117">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="QR">
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230d1117'/%3E%3Cg fill='%2300ff41'%3E%3Crect x='10' y='10' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='65' y='10' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='10' y='65' width='25' height='25' fill='none' stroke='%2300ff41' stroke-width='3'/%3E%3Crect x='15' y='15' width='5' height='5'/%3E%3Crect x='25' y='15' width='5' height='5'/%3E%3Crect x='15' y='25' width='5' height='5'/%3E%3Crect x='70' y='15' width='5' height='5'/%3E%3Crect x='80' y='15' width='5' height='5'/%3E%3Crect x='70' y='25' width='5' height='5'/%3E%3Crect x='15' y='70' width='5' height='5'/%3E%3Crect x='25' y='70' width='5' height='5'/%3E%3Crect x='15' y='80' width='5' height='5'/%3E%3Ccircle cx='50' cy='50' r='8' fill='none' stroke='%2300ff41' stroke-width='2'/%3E%3Cline x1='42' y1='50' x2='58' y2='50' stroke='%2300ff41' stroke-width='1'/%3E%3Cline x1='50' y1='42' x2='50' y2='58' stroke='%2300ff41' stroke-width='1'/%3E%3C/g%3E%3C/svg%3E">
 
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image">
-	<meta property="twitter:url" content="https://qr.dumbprojects.com/">
-	<meta property="twitter:title" content="QR Code Generator & Scanner">
-	<meta property="twitter:description"
-		content="Generate and scan QR codes instantly. Create high-quality QR codes from any text or URL, and scan codes with your mobile camera.">
-	<meta property="twitter:image" content="https://qr.dumbprojects.com/images/og-image.svg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://qr.dumbprojects.com/">
+    <meta property="og:title" content="QR Code Generator & Scanner">
+    <meta property="og:description"
+        content="Generate and scan QR codes instantly. Create high-quality QR codes from any text or URL, and scan codes with your mobile camera.">
+    <meta property="og:image" content="https://qr.dumbprojects.com/images/og-image.svg">
+    <meta property="og:site_name" content="QR Code Generator & Scanner">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://qr.dumbprojects.com/">
+    <meta property="twitter:title" content="QR Code Generator & Scanner">
+    <meta property="twitter:description"
+        content="Generate and scan QR codes instantly. Create high-quality QR codes from any text or URL, and scan codes with your mobile camera.">
+    <meta property="twitter:image" content="https://qr.dumbprojects.com/images/og-image.svg">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js"></script>
@@ -159,10 +161,13 @@
         }
 
         @keyframes headerLinePulse {
-            0%, 100% {
+
+            0%,
+            100% {
                 width: 80px;
                 opacity: 0.6;
             }
+
             50% {
                 width: 120px;
                 opacity: 1;
@@ -173,22 +178,22 @@
             .sidebar {
                 padding: 16px 24px 0 24px;
             }
-            
+
             .nav {
                 flex-direction: row;
                 gap: 8px;
                 justify-content: center;
             }
-            
+
             .nav-item {
                 padding: 14px 18px;
                 font-size: 12px;
             }
-            
+
             .main-content {
                 padding: 32px 24px;
             }
-            
+
             .app-header {
                 font-size: 20px;
                 margin-bottom: 32px;
@@ -211,6 +216,7 @@
                 opacity: 0;
                 transform: translateY(24px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -601,9 +607,12 @@
         }
 
         @keyframes scanPulse {
-            0%, 100% {
+
+            0%,
+            100% {
                 box-shadow: 0 0 20px rgba(57, 255, 126, 0.3);
             }
+
             50% {
                 box-shadow: 0 0 40px rgba(57, 255, 126, 0.6);
             }
@@ -781,8 +790,13 @@
         }
 
         @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
         }
 
         .loading-text {
@@ -811,6 +825,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="container">
         <div class="sidebar">
@@ -827,12 +842,8 @@
                     <div id="inputSection">
                         <div class="form-group">
                             <label class="form-label" for="qrText">Input Data</label>
-                            <textarea 
-                                id="qrText" 
-                                class="form-input" 
-                                rows="5" 
-                                placeholder="Enter text, URL, contact information, or any data to encode..."
-                            ></textarea>
+                            <textarea id="qrText" class="form-input" rows="5"
+                                placeholder="Enter text, URL, contact information, or any data to encode..."></textarea>
                         </div>
 
                         <div class="button-container">
@@ -931,10 +942,10 @@
             const isMobileUA = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent);
             const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
             const isSmallScreen = window.innerWidth <= 768;
-            
+
             // Consider it mobile if any of these conditions are true
             isMobile = isMobileUA || (isTouchDevice && isSmallScreen);
-            
+
             console.log('Device detection:', {
                 userAgent: userAgent,
                 isMobileUA: isMobileUA,
@@ -942,14 +953,14 @@
                 isSmallScreen: isSmallScreen,
                 finalIsMobile: isMobile
             });
-            
+
             return isMobile;
         }
 
         // Initialize navigation based on device type
         function initializeNavigation() {
             const nav = document.getElementById('navigation');
-            
+
             if (isMobile) {
                 // Mobile: Scan first, then Generate
                 nav.innerHTML = `
@@ -976,11 +987,11 @@
                 // Set generate as default for desktop
                 document.getElementById('generate').classList.add('active');
                 document.getElementById('scan').classList.remove('active');
-                
+
                 // Show desktop message in camera placeholder
                 document.getElementById('cameraMessage').style.display = 'none';
                 document.getElementById('desktopMessage').style.display = 'flex';
-                
+
                 // Disable start camera button on desktop
                 const startBtn = document.getElementById('startScanBtn');
                 startBtn.disabled = true;
@@ -992,16 +1003,16 @@
             // Update navigation
             document.querySelectorAll('.nav-item').forEach(item => item.classList.remove('active'));
             event.target.classList.add('active');
-            
+
             // Update content sections
             document.querySelectorAll('.content-section').forEach(section => section.classList.remove('active'));
             document.getElementById(sectionName).classList.add('active');
-            
+
             // Stop scanning if switching away from scan section
             if (sectionName !== 'scan' && scanning) {
                 stopScanning();
             }
-            
+
             // Show appropriate message when switching to scan section
             if (sectionName === 'scan' && !scanning) {
                 if (!isMobile) {
@@ -1016,7 +1027,7 @@
                     document.getElementById('cameraPlaceholder').classList.remove('hidden');
                 }
             }
-            
+
             // Reset button state when switching to generate section
             if (sectionName === 'generate') {
                 hasScannedSuccessfully = false;
@@ -1032,11 +1043,11 @@
             const inputSection = document.getElementById('inputSection');
             const qrSection = document.getElementById('qrSection');
             const canvasDiv = document.getElementById('qrCanvas');
-            
+
             if (!text) {
                 return;
             }
-            
+
             try {
                 const qr = new QRious({
                     value: text,
@@ -1046,10 +1057,10 @@
                     foreground: '#39ff7e',
                     level: 'H'
                 });
-                
+
                 // Clear previous QR code
                 canvasDiv.innerHTML = '';
-                
+
                 // Reset canvas styles completely
                 qr.canvas.style.cssText = `
                     display: block;
@@ -1064,19 +1075,19 @@
                     -webkit-user-select: none;
                     -webkit-touch-callout: none;
                 `;
-                
+
                 // Store reference to canvas for download functionality
                 qrCanvas = qr.canvas;
-                
+
                 // Add long press functionality
                 addLongPressListeners(qr.canvas);
-                
+
                 canvasDiv.appendChild(qr.canvas);
-                
+
                 // Switch sections
                 inputSection.style.display = 'none';
                 qrSection.style.display = 'block';
-                
+
             } catch (error) {
                 showStatus('QR code generation failed - invalid input data', 'error');
                 console.error('QR generation error:', error);
@@ -1088,20 +1099,20 @@
                 showStatus('No QR code to download', 'error');
                 return;
             }
-            
+
             try {
                 // Create download link
                 const link = document.createElement('a');
                 link.download = `qr-code-${Date.now()}.png`;
                 link.href = qrCanvas.toDataURL('image/png');
-                
+
                 // Trigger download
                 document.body.appendChild(link);
                 link.click();
                 document.body.removeChild(link);
-                
+
                 showStatus('Downloaded successfully', 'success');
-                
+
             } catch (error) {
                 showStatus('Download failed: ' + error.message, 'error');
                 console.error('Download error:', error);
@@ -1113,7 +1124,7 @@
             canvas.addEventListener('touchstart', handleTouchStart, { passive: false });
             canvas.addEventListener('touchend', handleTouchEnd, { passive: false });
             canvas.addEventListener('touchmove', handleTouchMove, { passive: false });
-            
+
             // Mouse events for desktop
             canvas.addEventListener('mousedown', handleMouseDown);
             canvas.addEventListener('mouseup', handleMouseUp);
@@ -1153,7 +1164,7 @@
 
         function startLongPress() {
             endLongPress(); // Clear any existing timer
-            
+
             longPressTimer = setTimeout(() => {
                 downloadQR();
                 // Add visual feedback
@@ -1179,7 +1190,7 @@
             const inputSection = document.getElementById('inputSection');
             const qrSection = document.getElementById('qrSection');
             const canvasDiv = document.getElementById('qrCanvas');
-            
+
             document.getElementById('qrText').value = '';
             canvasDiv.innerHTML = '';
             qrCanvas = null; // Clear canvas reference
@@ -1207,23 +1218,23 @@
                 showStatus('jsQR library not loaded', 'error');
                 return;
             }
-            
+
             video = document.getElementById('video');
             const startBtn = document.getElementById('startScanBtn');
             const stopBtn = document.getElementById('stopScanBtn');
             const loading = document.getElementById('cameraLoading');
             const buttonContainer = document.getElementById('cameraButtonContainer');
-            
+
             try {
                 loading.classList.add('show');
-                
+
                 // Hide placeholder when starting camera
                 document.getElementById('cameraPlaceholder').classList.add('hidden');
-                
+
                 // Hide previous results
                 document.getElementById('scanResult').classList.remove('show');
                 document.getElementById('errorMessage').classList.remove('show');
-                
+
                 // Check for camera support
                 if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
                     throw new Error('Camera API not supported');
@@ -1235,13 +1246,13 @@
                         facingMode: { ideal: 'environment' },
                         width: { ideal: 1280, min: 320 },
                         height: { ideal: 720, min: 240 },
-                        aspectRatio: { ideal: 16/9 }
+                        aspectRatio: { ideal: 16 / 9 }
                     }
                 };
 
                 currentStream = await navigator.mediaDevices.getUserMedia(constraints);
                 video.srcObject = currentStream;
-                
+
                 // Wait for video to be ready
                 await new Promise((resolve, reject) => {
                     let timeoutId = setTimeout(() => {
@@ -1258,37 +1269,37 @@
                         reject(new Error('Video loading failed'));
                     };
                 });
-                
+
                 // Start video playback
                 await video.play();
-                
+
                 loading.classList.remove('show');
-                
+
                 // Show stop button, hide start button
                 stopBtn.classList.remove('hidden');
                 startBtn.style.display = 'none';
-                
+
                 // Single button visible, so remove has-two-buttons class
                 buttonContainer.classList.remove('has-two-buttons');
-                
+
                 scanning = true;
                 scanningActive = true;
-                
+
                 // Initialize canvas
                 canvas = document.createElement('canvas');
                 context = canvas.getContext('2d');
-                
+
                 // Start scanning
                 scanFrame();
-                
+
             } catch (err) {
                 loading.classList.remove('show');
                 scanning = false;
                 scanningActive = false;
-                
+
                 // Show placeholder again on error
                 document.getElementById('cameraPlaceholder').classList.remove('hidden');
-                
+
                 let errorMessage = 'Camera access failed: ';
                 if (err.name === 'NotAllowedError') {
                     errorMessage += 'Permission denied. Please allow camera access.';
@@ -1299,7 +1310,7 @@
                 } else {
                     errorMessage += err.message;
                 }
-                
+
                 showStatus(errorMessage, 'error');
                 console.error('Camera error:', err);
             }
@@ -1309,32 +1320,32 @@
             if (!scanningActive || !video) {
                 return;
             }
-            
+
             // Check if video is ready
             if (video.readyState < video.HAVE_CURRENT_DATA) {
                 animationId = requestAnimationFrame(scanFrame);
                 return;
             }
-            
+
             try {
                 // Set canvas dimensions to match video
                 canvas.width = video.videoWidth;
                 canvas.height = video.videoHeight;
-                
+
                 if (canvas.width === 0 || canvas.height === 0) {
                     animationId = requestAnimationFrame(scanFrame);
                     return;
                 }
-                
+
                 // Draw video frame to canvas
                 context.drawImage(video, 0, 0, canvas.width, canvas.height);
-                
+
                 // Try to decode QR code every few frames to improve performance
                 analyzeFrame();
-                
+
                 // Continue scanning
                 animationId = requestAnimationFrame(scanFrame);
-                
+
             } catch (error) {
                 console.error('Scan frame error:', error);
                 animationId = requestAnimationFrame(scanFrame);
@@ -1343,7 +1354,7 @@
 
         function analyzeFrame() {
             if (!canvas || !context) return;
-            
+
             try {
                 // Try multiple scales and preprocessing techniques
                 const results = [
@@ -1353,7 +1364,7 @@
                     tryDetectQR(canvas.width, canvas.height, 1.0, true),  // Original with preprocessing
                     tryDetectQR(canvas.width, canvas.height, 0.75, true), // 3/4 size with preprocessing
                 ];
-                
+
                 for (let result of results) {
                     if (result) {
                         hasScannedSuccessfully = true;
@@ -1362,7 +1373,7 @@
                         return;
                     }
                 }
-                
+
             } catch (error) {
                 console.error('Analysis error:', error);
             }
@@ -1374,43 +1385,43 @@
                 if (typeof jsQR === 'undefined') {
                     return null;
                 }
-                
+
                 // Create scaled canvas
                 const scaledWidth = Math.floor(originalWidth * scale);
                 const scaledHeight = Math.floor(originalHeight * scale);
-                
+
                 const tempCanvas = document.createElement('canvas');
                 tempCanvas.width = scaledWidth;
                 tempCanvas.height = scaledHeight;
                 const tempContext = tempCanvas.getContext('2d');
-                
+
                 // Draw scaled image
                 tempContext.drawImage(video, 0, 0, scaledWidth, scaledHeight);
-                
+
                 // Get image data
                 let imageData = tempContext.getImageData(0, 0, scaledWidth, scaledHeight);
-                
+
                 // Apply preprocessing if requested
                 if (preprocess) {
                     imageData = preprocessImage(imageData);
                 }
-                
+
                 // Try different detection strategies
                 const strategies = [
                     { inversionAttempts: "dontInvert" },
                     { inversionAttempts: "onlyInvert" },
                     { inversionAttempts: "attemptBoth" }
                 ];
-                
+
                 for (let strategy of strategies) {
                     const code = jsQR(imageData.data, imageData.width, imageData.height, strategy);
                     if (code && code.data) {
                         return code.data;
                     }
                 }
-                
+
                 return null;
-                
+
             } catch (error) {
                 return null;
             }
@@ -1420,36 +1431,36 @@
             const data = imageData.data;
             const output = new ImageData(imageData.width, imageData.height);
             const outputData = output.data;
-            
+
             for (let i = 0; i < data.length; i += 4) {
                 // Convert to grayscale
                 const gray = Math.round(0.299 * data[i] + 0.587 * data[i + 1] + 0.114 * data[i + 2]);
-                
+
                 // Apply contrast enhancement and thresholding
                 let enhanced = gray;
-                
+
                 // Increase contrast
                 enhanced = ((enhanced - 128) * 1.5) + 128;
                 enhanced = Math.max(0, Math.min(255, enhanced));
-                
+
                 // Apply threshold for binary image
                 enhanced = enhanced > 127 ? 255 : 0;
-                
+
                 outputData[i] = enhanced;     // R
                 outputData[i + 1] = enhanced; // G
                 outputData[i + 2] = enhanced; // B
                 outputData[i + 3] = 255;      // A
             }
-            
+
             return output;
         }
 
-        function captureFrame() {            
+        function captureFrame() {
             if (!scanning || !scanningActive) {
                 showStatus('Camera not active', 'error');
                 return;
             }
-            
+
             if (!video) {
                 video = document.getElementById('video');
                 if (!video) {
@@ -1457,27 +1468,27 @@
                     return;
                 }
             }
-            
+
             if (video.readyState < video.HAVE_CURRENT_DATA) {
                 showStatus('Camera loading', 'error');
                 return;
             }
-            
+
             try {
                 // Update canvas dimensions
                 canvas.width = video.videoWidth;
                 canvas.height = video.videoHeight;
-                
+
                 if (canvas.width === 0 || canvas.height === 0) {
                     showStatus('Invalid video - restart camera', 'error');
                     return;
                 }
-                
+
                 // Draw current frame
                 context.drawImage(video, 0, 0, canvas.width, canvas.height);
-                
+
                 showStatus('Analyzing...', 'success');
-                
+
                 // Run enhanced analysis
                 setTimeout(() => {
                     // Try multiple scales and preprocessing techniques
@@ -1490,7 +1501,7 @@
                         { scale: 0.75, preprocess: true },
                         { scale: 1.25, preprocess: true },
                     ];
-                    
+
                     for (let attempt of attempts) {
                         const result = tryDetectQR(canvas.width, canvas.height, attempt.scale, attempt.preprocess);
                         if (result) {
@@ -1499,11 +1510,11 @@
                             return;
                         }
                     }
-                    
+
                     showStatus('No QR code detected - try adjusting position', 'error');
-                    
+
                 }, 100);
-                
+
             } catch (error) {
                 showStatus('Frame capture failed: ' + error.message, 'error');
             }
@@ -1512,17 +1523,17 @@
         function stopScanning() {
             scanning = false;
             scanningActive = false;
-            
+
             const startBtn = document.getElementById('startScanBtn');
             const stopBtn = document.getElementById('stopScanBtn');
             const buttonContainer = document.getElementById('cameraButtonContainer');
-            
+
             // Cancel animation frame
             if (animationId) {
                 cancelAnimationFrame(animationId);
                 animationId = null;
             }
-            
+
             // Stop media stream
             if (currentStream) {
                 currentStream.getTracks().forEach(track => {
@@ -1530,10 +1541,10 @@
                 });
                 currentStream = null;
             }
-            
+
             // Reset video
             video.srcObject = null;
-            
+
             // Show appropriate placeholder when camera stops
             document.getElementById('cameraPlaceholder').classList.remove('hidden');
             if (isMobile) {
@@ -1543,12 +1554,12 @@
                 document.getElementById('cameraMessage').style.display = 'none';
                 document.getElementById('desktopMessage').style.display = 'flex';
             }
-            
+
             // Hide stop button, show start button
             stopBtn.classList.add('hidden');
             startBtn.style.display = 'block';
             buttonContainer.classList.remove('has-two-buttons');
-            
+
             // Update button text based on whether we've scanned successfully (only for mobile)
             if (isMobile) {
                 if (hasScannedSuccessfully) {
@@ -1563,17 +1574,17 @@
             const resultDiv = document.getElementById('scanResult');
             const resultText = document.getElementById('scanResultText');
             const scanActionsContainer = document.getElementById('scanActionsContainer');
-            
+
             // Show the scanned text
             resultText.textContent = text;
-            
+
             // FORCE show debug info on screen for mobile
             console.log('📱 MOBILE DEBUG - Scanned text:', text);
-            
+
             // Validate URL with enhanced debugging
             const isUrl = isValidUrl(text);
             console.log('📱 MOBILE DEBUG - Is valid URL?', isUrl);
-            
+
             // Clear existing buttons and rebuild conditionally
             scanActionsContainer.innerHTML = `
                 <button class="action-btn" onclick="copyToClipboard()">
@@ -1585,7 +1596,7 @@
                     </button>
                 ` : ''}
             `;
-            
+
             // Set data attribute if URL is valid
             if (isUrl) {
                 const openUrlBtn = document.getElementById('openUrlBtn');
@@ -1594,7 +1605,7 @@
             } else {
                 scanActionsContainer.classList.remove('has-two-buttons');
             }
-            
+
             resultDiv.classList.add('show');
             document.getElementById('errorMessage').classList.remove('show');
         }
@@ -1602,53 +1613,53 @@
         function isValidUrl(string) {
             // Must be a single string with no spaces that starts with http:// or https://
             const text = string.trim();
-            
+
             // Debug: log what we're checking
             console.log('🔍 Checking scanned data:', JSON.stringify(text));
             console.log('📏 Length:', text.length);
             console.log('🔤 Raw characters:', [...text].map(c => c.charCodeAt(0)));
-            
+
             // Must start with http:// or https:// or www
             if (!text.startsWith('http://') && !text.startsWith('https://') && !text.startsWith('www')) {
                 console.log('❌ Does not start with http:// or https://');
                 return false;
             }
-            
+
             // Must not contain any spaces, tabs, or line breaks (single string only)
             if (text.includes(' ') || text.includes('\t') || text.includes('\n') || text.includes('\r')) {
                 console.log('❌ Contains spaces or line breaks');
                 return false;
             }
-            
+
             console.log('✅ Valid URL detected');
             return true;
         }
 
-		function openScannedUrl() {
-			const openUrlBtn = document.getElementById('openUrlBtn');
-			let url = openUrlBtn.getAttribute('data-url');
-			
-			// Only open if we have a URL (should always be true if button is visible)
-			if (url) {
-				// Replace http:// with https://
-				if (url.startsWith('http://')) {
-				    url = url.replace('http://', 'https://');
-				}
-				// Add https:// if no protocol exists
-				else if (!url.startsWith('https://')) {
-				    url = 'https://' + url;
-				}
-				
-				window.open(url, '_blank', 'noopener,noreferrer');
-				
-				const originalText = openUrlBtn.querySelector('span').textContent;
-				openUrlBtn.querySelector('span').textContent = 'Opened';
-				
-				setTimeout(() => {
-				    openUrlBtn.querySelector('span').textContent = originalText;
-				}, 2000);
-			}
-		}
+        function openScannedUrl() {
+            const openUrlBtn = document.getElementById('openUrlBtn');
+            let url = openUrlBtn.getAttribute('data-url');
+
+            // Only open if we have a URL (should always be true if button is visible)
+            if (url) {
+                // Replace http:// with https://
+                if (url.startsWith('http://')) {
+                    url = url.replace('http://', 'https://');
+                }
+                // Add https:// if no protocol exists
+                else if (!url.startsWith('https://')) {
+                    url = 'https://' + url;
+                }
+
+                window.open(url, '_blank', 'noopener,noreferrer');
+
+                const originalText = openUrlBtn.querySelector('span').textContent;
+                openUrlBtn.querySelector('span').textContent = 'Opened';
+
+                setTimeout(() => {
+                    openUrlBtn.querySelector('span').textContent = originalText;
+                }, 2000);
+            }
+        }
 
         function copyToClipboard() {
             const text = document.getElementById('scanResultText').textContent;
@@ -1657,11 +1668,11 @@
                 const span = btn.querySelector('span');
                 const originalText = span.textContent;
                 span.textContent = 'Copied';
-                
+
                 setTimeout(() => {
                     span.textContent = originalText;
                 }, 2000);
-                
+
                 showStatus('Copied to clipboard', 'success');
             }).catch(() => {
                 showStatus('Clipboard operation failed', 'error');
@@ -1672,11 +1683,11 @@
             const statusDiv = document.getElementById('errorMessage');
             statusDiv.textContent = message;
             statusDiv.className = 'status-panel show';
-            
+
             if (type === 'success') {
                 statusDiv.classList.add('success');
             }
-            
+
             setTimeout(() => {
                 statusDiv.classList.remove('show');
             }, 4000);
@@ -1686,42 +1697,42 @@
         function checkLibraries() {
             const qriousAvailable = typeof QRious !== 'undefined';
             const jsqrAvailable = typeof jsQR !== 'undefined';
-            
+
             if (!qriousAvailable) {
                 showStatus('QRious library failed to load', 'error');
             }
-            
+
             if (!jsqrAvailable && isMobile) {
                 showStatus('jsQR library failed to load', 'error');
                 // Disable scanning buttons
                 document.getElementById('startScanBtn').disabled = true;
                 document.querySelector('#startScanBtn span').textContent = 'Library Loading...';
             }
-            
+
             return qriousAvailable && (jsqrAvailable || !isMobile);
         }
 
         // Auto-focus text input when page loads
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             // Detect device type first
             detectDevice();
-            
+
             // Initialize navigation based on device
             initializeNavigation();
-            
+
             const textInput = document.getElementById('qrText');
-            
+
             // Only auto-focus on desktop when generate section is active
             if (!isMobile && document.getElementById('generate').classList.contains('active')) {
                 textInput.focus();
             }
-            
+
             textInput.addEventListener('input', updateGenerateButton);
             textInput.addEventListener('keyup', updateGenerateButton);
-            textInput.addEventListener('paste', function() {
+            textInput.addEventListener('paste', function () {
                 setTimeout(updateGenerateButton, 10);
             });
-            
+
             // Check if libraries loaded properly
             setTimeout(() => {
                 const librariesOK = checkLibraries();
@@ -1732,21 +1743,21 @@
         });
 
         // Handle page visibility change
-        document.addEventListener('visibilitychange', function() {
+        document.addEventListener('visibilitychange', function () {
             if (document.hidden && scanning) {
                 stopScanning();
             }
         });
 
         // Handle escape key to stop scanning
-        document.addEventListener('keydown', function(e) {
+        document.addEventListener('keydown', function (e) {
             if (e.key === 'Escape' && scanning) {
                 stopScanning();
             }
         });
 
         // Handle beforeunload to clean up camera
-        window.addEventListener('beforeunload', function() {
+        window.addEventListener('beforeunload', function () {
             if (scanning) {
                 stopScanning();
             }
@@ -1756,28 +1767,29 @@
         });
 
         // Handle window resize to re-detect device type if needed
-        window.addEventListener('resize', function() {
+        window.addEventListener('resize', function () {
             const wasDesktop = !isMobile;
             detectDevice();
-            
+
             // If device type changed, reinitialize
             if (wasDesktop !== !isMobile) {
                 initializeNavigation();
             }
         });
-        
-		// Register Service Worker for PWA
-		if ('serviceWorker' in navigator) {
-			window.addEventListener('load', function() {
-				navigator.serviceWorker.register('sw.js')
-				    .then(function(registration) {
-				        console.log('Service Worker registered successfully:', registration.scope);
-				    })
-				    .catch(function(error) {
-				        console.log('Service Worker registration failed:', error);
-				    });
-			});
-		}
+
+        // Register Service Worker for PWA
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('sw.js')
+                    .then(function (registration) {
+                        console.log('Service Worker registered successfully:', registration.scope);
+                    })
+                    .catch(function (error) {
+                        console.log('Service Worker registration failed:', error);
+                    });
+            });
+        }
     </script>
 </body>
+
 </html>
